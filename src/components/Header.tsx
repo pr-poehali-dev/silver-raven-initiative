@@ -24,13 +24,13 @@ export function Header() {
               href="#services"
               className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
             >
-              Услуги
+              Направления
             </a>
             <a
               href="#process"
               className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
             >
-              Процесс
+              Расписание
             </a>
             <a
               href="#contact"
@@ -75,14 +75,14 @@ export function Header() {
               onClick={() => setIsMenuOpen(false)}
               className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
             >
-              Услуги
+              Направления
             </a>
             <a
               href="#process"
               onClick={() => setIsMenuOpen(false)}
               className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
             >
-              Процесс
+              Расписание
             </a>
             <a
               href="#contact"
